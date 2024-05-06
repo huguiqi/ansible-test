@@ -1,0 +1,8 @@
+zaxh-dev:
+  hosts:
+    webserver01:
+      ansible_host: 192.168.1.199
+    webserver02:
+      ansible_host: 192.168.0.86
+  vars:
+    ansible_user: root

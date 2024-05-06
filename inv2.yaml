@@ -1,0 +1,6 @@
+zaxh-dev:
+  hosts:
+       192.168.1.199
+       192.168.0.86
+  vars:
+    ansible_user: root

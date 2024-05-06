@@ -1,0 +1,8 @@
+- name: My first play
+  hosts: zaxh-dev
+  tasks:
+   - name: Ping my hosts
+     ansible.builtin.ping:
+
+   - name: start docker
+     command: systemctl start docker
